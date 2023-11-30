@@ -9,13 +9,24 @@ nlu:
     - hello there
     - good morning
     - good evening
-    - moin
+    - morning
     - hey there
     - let's go
     - hey dude
     - goodmorning
     - goodevening
     - good afternoon
+    - hey there!
+    - hi, how are you?
+    - good day
+    - greetings
+    - hi, what's up?
+    - hey, buddy!
+    - hiya
+    - hi, it's nice to see you
+    - hey, what's going on?
+    - hello friend
+
 
 - intent: goodbye
   examples: |
@@ -29,6 +40,16 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - farewell
+    - take care
+    - until we meet again
+    - see you soon
+    - adios
+    - goodbye for now
+    - catch you later
+    - gotta go
+    - bye for now
+    - see you next time
 
 - intent: affirm
   examples: |
@@ -38,6 +59,16 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - absolutely
+    - sure thing
+    - affirmative
+    - you bet
+    - indeed, it is
+    - absolutely correct
+    - certainly
+    - that's right
+    - without a doubt
+    - agreed
 
 - intent: deny
   examples: |
@@ -48,6 +79,14 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nope
+    - I disagree
+    - not at all
+    - I beg to differ
+    - I don't think so
+    - I'm afraid not
+    - definitely not
+    - I don't agree
 
 - intent: mood_great
   examples: |
@@ -65,6 +104,16 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - fantastic
+    - on top of the world
+    - couldn't be better
+    - in high spirits
+    - splendid
+    - over the moon
+    - feeling awesome
+    - full of joy
+    - absolutely ecstatic
+    - feeling fantastic
 
 - intent: mood_unhappy
   examples: |
@@ -79,9 +128,19 @@ nlu:
     - unhappy
     - not good
     - not very good
-    - extremly sad
+    - extremely sad
     - so saad
     - so sad
+    - having a rough day
+    - feeling down
+    - not in the best mood
+    - disappointed in myself
+    - going through a tough time
+    - could be better
+    - not so great
+    - feeling a bit low
+    - under the weather
+    - struggling today
 
 - intent: bot_challenge
   examples: |
@@ -89,3 +148,9 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - prove you're not a robot
+    - tell me, are you a real person?
+    - can you pass the Turing test?
+    - convince me you're human
+    - are you made of flesh and blood?
+    - is there a human behind the screen?
